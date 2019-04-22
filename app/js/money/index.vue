@@ -2,35 +2,36 @@
   <div>
     <Heador></Heador>
     <Slider></Slider>
-    <Novice></Novice>
-    <Borrow></Borrow>
+    <Ada></Ada>
     <Money></Money>
-    <Product></Product>
-    <Life></Life>
-    <Footer></Footer>
+    <Adb></Adb>
+    <Finance></Finance>
+    <Adc></Adc>
+    <Footor></Footor>
     <Navbar></Navbar>
   </div>
 </template>
 
 <script>
 import Heador from '../public/header.vue'
-import Slider from './hslider.vue'
-import Novice from './novice.vue'
-import Borrow from './borrow.vue'
+import Slider from './mslider.vue'
+import Ada from './ada.vue'
 import Money from './money.vue'
-import Product from './product.vue'
-import Life from './life.vue'
+import Adb from './adb.vue'
+import Finance from './finance.vue'
+import Adc from './adb.vue'
 import Footor from '../public/footer.vue'
 import Navbar from '../public/navbar.vue'
+
 export default {
   components: {
     Heador,
     Slider,
-    Novice,
-    Borrow,
+    Ada,
     Money,
-    Product,
-    Life,
+    Adb,
+    Finance,
+    Adc,
     Footor,
     Navbar
   }
