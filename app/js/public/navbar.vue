@@ -1,5 +1,5 @@
 <template>
-  <section :class="$style.panel">
+  <section :class="$style.navbar">
     <ul>
       <li>
         <router-link :to="{ name: 'home'}">
@@ -54,7 +54,7 @@ export default {}
 
 <style module lang="scss">
 @import '../../css/element.scss';
-.panel {
+.navbar {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -87,4 +87,9 @@ export default {}
 }
 </style>
 <style scoped lang="scss">
+.router-link-exact-active {
+  p {
+    color: red;
+  }
+}
 </style>
